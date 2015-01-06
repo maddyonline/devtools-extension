@@ -4,6 +4,9 @@
 // chrome.devtools.*
 // chrome.extension.*
 
+chrome.experimental.devtools.console.addMessage(
+                chrome.experimental.devtools.console.Severity.Warning,
+                "Hello from panel.js");
 document.querySelector('#executescript').addEventListener('click', function() {
     sendObjectToInspectedPage({action: "code", content: "console.log('Inline script executed')"});
 }, false);

@@ -10,6 +10,7 @@ Installation
  * Enable 'Developer Mode' checkbox
  * Click 'Load unpacked extensions...'
  * Select the `devtools-extension` folder
+ * Enable the experimental API in your browser. Go to chrome://flags and set enable-experimental-extension-apis to true. 
 
 Usage
 ===

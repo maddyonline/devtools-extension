@@ -9,6 +9,7 @@
         ]
     },
     "permissions": [
+        "experimental",
         "tabs", 
         "http://*/*",
         "https://*/*"
