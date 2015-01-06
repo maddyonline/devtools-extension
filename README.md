@@ -1,4 +1,4 @@
-DevTools Extension Example
+Updated DevTools Extension Example
 ===
 
 This is a small boilerplate project to be used as a starting point for developing a Chrome DevTools Extension.
